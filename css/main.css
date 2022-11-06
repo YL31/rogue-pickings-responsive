@@ -67,20 +67,20 @@ header h1 span {
 }
 
 header nav {
-  padding: 20px; 
+  padding: 20px 0;
+  width: 100%;
 }
 
 header nav ul {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 header nav ul li {
   text-transform: uppercase;
   font-weight: 700;
   font-size: .875em; 
-  padding: 10px 10px;
+  padding: 10px;
   display: block; 
 }
 
@@ -97,10 +97,6 @@ header nav ul li a {
   flex-flow: row wrap;
   width: 100%;
 }
-
-/*.main-image {
-  height: auto;
-}*/
 
 .main-image img {
   width: 100%;
@@ -219,7 +215,7 @@ footer span {
 
   header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
   
 }
